@@ -3,7 +3,8 @@ using namespace
 int main()
 {
   int i;
-  c
+  cout<<"enter num"<<endl;
+  cin>>i;
 
 
 
