@@ -9,5 +9,5 @@
  	cin>>no1>>no2;
  	sum=no1+no2;
  	cout<<"sum is"<<sum<<endl;
- 	return 0; 
+ 	return 0;
  }
