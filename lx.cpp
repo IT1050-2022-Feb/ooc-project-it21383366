@@ -1,3 +1,11 @@
 #include<iostream>
 using namespace 
-i
+int main()
+{
+  int i;
+  c
+
+
+
+  return 0;
+}
