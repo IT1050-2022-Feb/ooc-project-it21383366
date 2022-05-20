@@ -31,7 +31,7 @@
  #include <iostream>
  
  
- class Guest users{
+ class GuestUsers{
  	
  	public:
  	void Search Books();
