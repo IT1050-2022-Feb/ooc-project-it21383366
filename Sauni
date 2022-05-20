@@ -1,0 +1,39 @@
+//IT21373848
+#include <iostream>
+
+class Book {
+protected:
+    int book_ID;
+    int amount;
+    int qty;
+    char availability[3];
+
+    Librarian* lib;
+
+public:
+    Book();
+    Book(int bookID, int bamount, int bquantity, char bavailability[]);
+    void addBookDetails(int bookID, int bamount, int bquantity, char bavailability[]);
+    void modifyBookDetails(int bookID, int bamount, int bquantity, char bavailability[]);
+};
+
+
+Book::Book()
+{
+    book_ID = 0;
+    amount = 0;
+    qty = 0;
+    strcpy ( availability, "");
+}
+
+Book::Book(int bookID, int bamount, int bquantity, char bavailability[])
+{
+}
+
+void Book::addBookDetails(int bookID, int bamount, int bquantity, char bavailability[])
+{
+}
+
+void Book::modifyBookDetails(int bookID, int bamount, int bquantity, char bavailability[])
+{
+}
