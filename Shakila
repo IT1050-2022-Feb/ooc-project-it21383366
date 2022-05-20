@@ -1,0 +1,91 @@
+//IT21385582
+#include <iostream>
+
+
+
+class Libraian {
+private:
+int AID;
+char first_name[20];
+char last_name[20];
+char user_name[40];
+char email[50];
+char password[30];
+
+
+
+studentAccount* sta;
+specialAcount* spa;
+
+
+
+public:
+Libraian();
+void searchBooks();
+void filterBooks();
+void sortBooks();
+void issueBook();
+void returnBook();
+void calculateFine();
+void addMember(int RSpID, char Rfname[], char Rlname[], char Remail[], char Uname[], char RNIC[], char Rgender[], char RDOB[], int Rtp_number[], char Raddress1[], char Raddress2[], char Rcity[], char Rprovince[], int Rp_code, char Rbio[], char Ra_type[], char Rpassword[], char Rreg_date[]);
+void addBook(char bookID[], int bamount, int bquantity, char bavailability[]);
+};
+
+
+
+Libraian::Libraian()
+{
+AID = 0;
+strcpy(first_name, "");
+strcpy(last_name, "");
+strcpy(email, "");
+strcpy(password, "");
+}
+
+
+
+void Libraian::searchBooks()
+{
+}
+
+
+
+void Libraian::filterBooks()
+{
+}
+
+
+
+void Libraian::sortBooks()
+{
+}
+
+
+
+void Libraian::issueBook()
+{
+}
+
+
+
+void Libraian::returnBook()
+{
+}
+
+
+
+void Libraian::calculateFine()
+{
+}
+
+
+
+void Libraian::addMember(int RSpID, char Rfname[], char Rlname[], char Remail[], char Uname[], char RNIC[], char Rgender[], char RDOB[], int Rtp_number[], char Raddress1[], char Raddress2[], char Rcity[], char Rprovince[], int Rp_code, char Rbio[], char Ra_type[], char Rpassword[], char Rreg_date[])
+{
+}
+
+
+
+void Libraian::addBook(char bookID[], int bamount, int bquantity, char bavailability[])
+{
+}
