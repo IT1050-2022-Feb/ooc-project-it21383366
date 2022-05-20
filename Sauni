@@ -1,5 +1,6 @@
 //IT21373848
 #include <iostream>
+#include <cstring>
 
 class Book {
 protected:
