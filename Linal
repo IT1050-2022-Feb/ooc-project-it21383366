@@ -33,6 +33,8 @@ class registered_user{
 			void return_books();
 			void search_books();
 			void sort_books();
+			
+			
 			void add_books_to_favourite();
 			
 };
@@ -60,3 +62,20 @@ class registered_user{
 				
 			}
 
+//main program
+#include <iostream>
+
+
+
+int main () {
+
+registered_user reg1;
+specialAccount SAcc01;
+studentAccount AtAcc01;
+reports rep01;
+GuestUsers gu01;
+Book book01;
+Libraian Lib01;
+
+return 0;
+}
