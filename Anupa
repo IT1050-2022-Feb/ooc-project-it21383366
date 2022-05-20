@@ -1,0 +1,57 @@
+//IT21295560
+
+//Class1-Reports
+
+#include <iostream>
+ 
+ class reports{
+ 	private:
+ 		int reportID;
+ 		
+ 	public:
+	 	void MembersReport();
+		void bookDetailsReport();
+		void overduebooksReport();		
+ };
+ 
+ 
+ 		void reports::MembersReport();
+ 		{
+		}
+ 		void reports::bookDetailsReport();
+ 		{
+		}
+ 		void reports::overduebooksReport()
+ 		{
+		}
+		
+    
+  //Class2-Guest users 
+  
+ #include <iostream>
+ 
+ 
+ class Guest users{
+ 	
+ 	public:
+ 	void Search Books();
+ 	void Sort Books();
+ 	void FilterBook();
+ 	void PayRegistrationFee();
+ 		
+ };
+ 
+ 	void Guest users::Books();
+ 	{
+	}
+	void Guest users::Sort Books();
+	{
+	}
+	void Guest users::FilterBook();
+	{
+	}
+	void Guest users::PayRegistrationFee();
+	{
+	}
+ 
+ 
